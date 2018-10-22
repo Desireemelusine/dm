@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Front-End Developer | UX UI </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom fonts for this theme -->
+    <link href="https://fonts.googleapis.com/css?family=Syncopate|Roboto:100,300|Montserrat|Scope+One," rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="vendor/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
+    <link href="vendor/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="vendor/animate.css/animate.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this theme -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Front-End Developer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i> Menu
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cv">What I do</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a>  </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Masthead -->
+    <header class="masthead" style="background-image: url('img/bg/back.jpg');">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-12 my-auto text-center text-white">
+            <div class="masthead-title" data-bind = "text: mTitle"></div>
+            <h4 class="masthead-title2" data-bind = "text: mSubtitle"></h4>
+            <hr class="colored">
+          </div>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <a class="btn js-scroll-trigger" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="page-section" id="about">
+      <div class="container wow fadeIn">
+        <div class="row">
+          <div class="col-sm-6">
+            <img id="profilepic" class="img-fluid rounded" src="img/9m.jpg" alt="">
+          </div>
+          <div class="col-sm-6 text-center my-auto">
+            <h1 data-bind = "text: sProfile"></h1>
+            <hr class="colored">
+            <p  class="profile" data-bind = "text: sResume"></p>
+            <a class="text-center" href="https://www.linkedin.com/in/desiree-melusine/" target="_new"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a class="text-center" href="https://github.com/Desireemelusine" target="_new"><i class="fab fa-github-square fa-2x"></i></a>
+            <a class="text-center"  href="img/pt/cv.pdf" target="_new" download><i class="far fa-file-pdf fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What I do -->
+    <section class="page-section bg-light" id="cv">
+      <div class="container-fluid">
+        <div class="wow fadeIn text-center">
+          <h2 data-bind = "text: ssTitle"></h2>
+          <hr class="colored">
+          <p class="mb-0" data-bind = "text: ssDescription"></p><br>
+          <h5><strong data-bind = "text: ssSubtitle"></strong></h5>
+          <img src="img/ic/react.png" alt="react">
+        </div>
+        <br>
+        <div class="row text-center">
+          <!-- IDEA: FRONTEND -->
+          <div class="col-lg-3 col-md-6">
+            <div class="wow fadeIn px-4 pb-4 pb-lg-0 h-100" data-wow-delay=".2s">
+              <i class="fa fa-code fa-3x"></i>
+              <h3 data-bind = "text: ssFrontTitle"></h3>
+              <p class="mb-0" data-bind = "text: ssFrontDescrip"></p>
+              <br>
+              <img src="img/ic/git.png" alt="git">
+              <img src="img/ic/html.png" alt="html5">
+              <img src="img/ic/css3.png" alt="css3">
+              <img src="img/ic/js.png" alt="javaScript">
+              <img src="img/ic/bootstrap.png" alt="bootstrap">
+              <img src="img/ic/jQuery.png" alt="jquery">
+              <img src="img/ic/knockoutjsX.png" alt="knockoutJS">
+              <img src="img/ic/jasmine.png" alt="jasmine test-driven">
+            </div>
+          </div>
+          <!-- IDEA: WebDesigner -->
+          <div class="col-lg-3 col-md-6">
+            <div class="wow fadeIn px-4 pb-4 pb-lg-0 h-100" data-wow-delay=".4s">
+              <i class="fa fa-tablet fa-3x"></i>
+              <h3 data-bind = "text: ssWebTitle"></h3>
+              <p class="mb-0" data-bind = "text: ssWebDescrip"></p>
+              <br>
+              <img src="img/ic/wordpress.png" alt="wordpress">
+              <img src="img/ic/squarespace.png" alt="squarespace">
+              <img src="img/ic/wix.png" alt="wix">
+              <img src="img/ic/shopify.png" alt="shopify">
+              <img src="img/ic/woo.png" alt="woo">
+            </div>
+          </div>
+          <!-- IDEA:  Product Design | UX UI -->
+          <div class="col-lg-3 col-md-6">
+            <div class="wow fadeIn px-4 pb-4 pb-lg-0 h-100" data-wow-delay=".6s">
+              <i class="fa fa-edit fa-3x"></i>
+              <h3 data-bind = "text: ssDesTitle"></h3>
+              <p class="mb-0" data-bind = "text: ssDesDescrip"></p>
+              <br>
+              <img src="img/ic/illustrator.png" alt="illustrator">
+              <img src="img/ic/photoshop.png" alt="photoshop">
+              <img src="img/ic/indesign.png" alt="indesign">
+              <img src="img/ic/3dsmax.png" alt="3dsmax">
+              <img src="img/ic/solidworks.png" alt="solidworks">
+              <img src="img/ic/figma1.png" alt="figma">
+            </div>
+          </div>
+          <!-- IDEA: What Else -->
+          <div class="col-lg-3 col-md-6">
+            <div class="wow fadeIn px-3 h-100" data-wow-delay=".8s">
+              <i class="fa fa-heart fa-3x"></i>
+              <h3 data-bind = "text: ssWhTitle"></h3>
+              <p class="mb-0" data-bind = "text: ssWhDescrip"></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--My own Words -->
+    <section class="call-to-action" style="background-image: url('img/bg/quote.jpg');">
+      <div class="container wow fadeIn">
+        <div class="row">
+          <div class="col-md-10 mx-auto px-4">
+            <span class="quote">I work with such a pleasure that every challenge I face is an
+              <span class="text-primary">opportunity to learn and to share.</span> That's the reason my approach to each project is completly different. I like to get involve and
+              <span class="text-primary">contribuite to the success of each project</span>
+              <span>.That's why </span>
+              <span class="text-primary">I love what I do</span>.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Portfolio Grid Section -->
+    <section class="page-section" id="portfolio">
+      <div class="container text-center wow fadeIn">
+        <h2>Portfolio</h2>
+        <hr class="colored">
+        <p>Here are some projects that I've worked on.</p>
+        <div class="controls mt-3">
+          <button type="button" class="control btn btn-secondary btn-sm mb-4" data-mixitup-control data-filter="all">All</button>
+          <button type="button" class="control btn btn-secondary btn-sm mb-4" data-mixitup-control data-filter=".frontend">Front-End Developer</button>
+          <button type="button" class="control btn btn-secondary btn-sm mb-4" data-mixitup-control data-filter=".design">Design UX|UI</button>
+        </div>
+        <div class="portfolio-grid clearfix" id="portfolioList">
+          <!-- Grid 1 FRONTEND - g1Fend -->
+          <div class="mix frontend">
+            <div class="portfolio-wrapper">
+              <img class="mix1" href="img/pt/grid/resttri.jpg" src="" alt="teste" data-bind="attr: {src: g1FendImgSrc}">
+              <div class="caption">
+                <div class="caption-text">
+                  <span class="text-category mb-2" data-bind = "text: g1FendDescrip"></span>
+                  <p id="tgO1" style="display: none;" class="text-title" data-bind = "text: g1FendTitle"></p>
+                  <span id="tg1" class="info">More Info</span>
+                  <div class="text-category">
+                    <a class="btn btn-primary mt-2" data-bind="attr: {href: g1FendGit}" target="_new"><strong>GITHUB</strong><br></a>
+                    <a class="btn btn-primary mt-2" data-bind="attr: {href: g1FendUrl}" target="_new"><strong>LINK</strong></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Grid 2 FRONTEND - g2Fend -->
+          <div class="mix frontend">
+            <div class="portfolio-wrapper">
+              <img class="mix1" href="img/pt/grid/lgtri.jpg" src="" alt="teste" data-bind="attr: {src: g2FendImgSrc}">
+              <div class="caption">
+                <div class="caption-text">
+                  <span class="text-category mb-2" data-bind = "text: g2FendDescrip"></span>
+                  <p id="tgO2" style="display: none;" class="text-title" data-bind = "text: g2FendTitle"></p>
+                  <span id="tg2" class="info">More Info</span>
+                  <div class="text-category">
+                    <a class="btn btn-primary mt-2" data-bind="attr: {href: g2FendGit}" target="_new"><strong>GITHUB</strong><br></a>
+                    <a class="btn btn-primary mt-2" data-bind="attr: {href: g2FendUrl}" target="_new"><strong>LINK</strong></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Grid 3 FRONTEND - g3Fend -->
+          <div class="mix frontend">
+            <div class="portfolio-wrapper">
+              <img class="mix1" href="img/pt/grid/archtri.jpg" src="" alt="teste" data-bind="attr: {src: g3FendImgSrc}">
+              <div class="caption">
+                <div class="caption-text">
+                  <span class="text-category mb-2" data-bind = "text: g3FendDescrip"></span>
+                  <p id="tgO3" style="display: none;" class="text-title" data-bind = "text: g3FendTitle"></p>
+                  <span id="tg3" class="info">More Info</span>
+                  <div class="text-category">
+                    <a class="btn btn-primary mt-2" data-bind="attr: {href: g3FendGit}" target="_new"><strong>GITHUB</strong><br></a>
+                    <a class="btn btn-primary mt-2" data-bind="attr: {href: g3FendUrl}" target="_new"><strong>LINK</strong></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Grid 4 FRONTEND - g4Fend -->
+          <div class="mix frontend">
+            <div class="portfolio-wrapper">
+              <img class="mix1" href="img/pt/grid/fedtri.jpg" src="" alt="teste" data-bind="attr: {src: g4FendImgSrc}">
+              <div class="caption">
+                <div class="caption-text">
+                  <span class="text-category mb-2" data-bind = "text: g4FendDescrip"></span>
+                  <p id="tgO4" style="display: none;" class="text-title" data-bind = "text: g4FendTitle"></p>
+                  <span id="tg4" class="info">More Info</span>
+                  <div class="text-category">
+                    <a class="btn btn-primary mt-2" data-bind="attr: {href: g4FendGit}" target="_new"><strong>GITHUB</strong><br></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Grid 5 FRONTEND - g5Fend-->
+          <div class="mix frontend">
+            <div class="portfolio-wrapper">
+              <img class="mix1" href="img/pt/grid/cattri.jpg" src="" alt="teste" data-bind="attr: {src: g5FendImgSrc}">
+              <div class="caption">
+                <div class="caption-text">
+                  <span class="text-category mb-2" data-bind = "text: g5FendDescrip"></span>
+                  <p id="tgO5" style="display: none;" class="text-title" data-bind = "text: g5FendTitle"></p>
+                  <span id="tg5" class="info">More Info</span>
+                  <div class="text-category">
+                    <a class="btn btn-primary mt-2" data-bind="attr: {href: g5FendGit}" target="_new"><strong>GITHUB</strong><br></a>
+                    <a class="btn btn-primary mt-2" data-bind="attr: {href: g5FendUrl}" target="_new"><strong>LINK</strong></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Grid 6 FRONTEND - g6Fend-->
+          <div class="mix frontend">
+            <div class="portfolio-wrapper">
+              <img class="mix1" href="img/pt/grid/maptri.jpg" src="" alt="teste" data-bind="attr: {src: g6FendImgSrc}">
+              <div class="caption">
+                <div class="caption-text">
+                  <span class="text-category mb-2" data-bind = "text: g6FendDescrip"></span>
+                  <p id="tgO6" style="display: none;" class="text-title" data-bind = "text: g6FendTitle"></p>
+                  <span id="tg6" class="info">More Info</span>
+                  <div class="text-category">
+                    <a class="btn btn-primary mt-2" data-bind="attr: {href: g6FendGit}" target="_new"><strong>GITHUB</strong><br></a>
+                    <a class="btn btn-primary mt-2" data-bind="attr: {href: g6FendUrl}" target="_new"><strong>LINK</strong></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Grid 1 Design - facolwi -->
+          <div class="mix design">
+            <div class="portfolio-wrapper">
+              <img class="mix1" href="img/pt/grid/facolwi.jpg" src="" alt="teste" data-bind="attr: {src: g1DImgSrc}">
+              <div class="caption">
+                <div class="caption-text">
+                  <span class="text-category mb-2" data-bind = "text: g1DDescrip"></span>
+                  <p id="tgO7" style="display: none;" class="text-title" data-bind = "text: g1DTitle"></p>
+                  <span id="tg7" class="info">More Info</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Grid 2 Design - facolsu -->
+          <div class="mix design">
+            <div class="portfolio-wrapper">
+              <img class="mix1" href="img/pt/grid/facolsu.jpg" src="" alt="teste" data-bind="attr: {src: g2DImgSrc}">
+              <div class="caption">
+                <div class="caption-text">
+                  <span class="text-category mb-2" data-bind = "text: g2DDescrip"></span>
+                  <p id="tgO8" style="display: none;" class="text-title" data-bind = "text: g2DTitle"></p>
+                  <span id="tg8" class="info">More Info</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Grid 3 Design - piacere -->
+          <div class="mix design">
+            <div class="portfolio-wrapper">
+              <img class="mix1" href="img/pt/grid/picol.jpg" src="" alt="teste" data-bind="attr: {src: g3DImgSrc}">
+              <div class="caption">
+                <div class="caption-text">
+                  <span class="text-category mb-2" data-bind = "text: g3DDescrip"></span>
+                  <p id="tgO9" style="display: none;" class="text-title" data-bind = "text: g3DTitle"></p>
+                  <span id="tg9" class="info">More Info</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Grid 4 Product -merely -->
+          <div class="mix design">
+            <div class="portfolio-wrapper">
+              <img class="mix1" href="img/pt/grid/mertri.jpg" src="" alt="teste" data-bind="attr: {src: g4DImgSrc} ">
+              <div class="caption">
+                <div class="caption-text">
+                  <span class="text-category mb-2" data-bind = "text: g4DDescrip"></span>
+                  <p id="tgO10" style="display: none;" class="text-title" data-bind = "text: g4DTitle"></p>
+                  <span id="tg10" class="info">More Info</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Grid 1 DES -   WEB -->
+          <div class="mix design">
+            <div class="portfolio-wrapper">
+              <img class="mix1" href="img/pt/grid/home_app.jpg" src="" alt="teste" data-bind="attr: {src: g5DImgSrc}">
+              <div class="caption">
+                <div class="caption-text">
+                  <span class="text-category mb-2" data-bind = "text: g5DDescrip"></span>
+                  <p id="tgO11" style="display: none;" class="text-title" data-bind = "text: g5DTitle"></p>
+                  <span id="tg11" class="info">More Info</span>
+                  <div class="text-category">
+                    <a class="btn btn-primary mt-2" data-bind="attr: {href: g5DUrl}" target="_new"><strong>LINK</strong></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Grid 2 DES - logo -->
+          <div class="mix design">
+            <div class="portfolio-wrapper">
+              <img class="mix1" href="img/pt/grid/logotri.jpg" src="" alt="teste" data-bind="attr: {src: g6DImgSrc}">
+              <div class="caption">
+                <div class="caption-text">
+                  <span class="text-category mb-2" data-bind = "text: g6DDescrip"></span>
+                  <p id="tgO12" style="display: none;" class="text-title" data-bind = "text: g6DTitle"></p>
+                  <span id="tg12" class="info">More Info</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="page-section" id="contact">
+      <footer class="container wow fadeIn footer">
+        <div class="text-center">
+          <h2>Let's Connect</h2>
+          <hr class="colored">
+        </div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-4 footer-contact-details">
+              <p class="white"><i class="fa fa-phone white"></i> +351 938897705</p>
+            </div>
+            <div class="col-md-4 footer-contact-details">
+              <p class="white"><i class="fa fa-map-marker white"></i> Portugal | Lisboa</p>
+            </div>
+            <div class="col-md-4 footer-contact-details">
+              <p class="white"><i class="fa fa-envelope white"></i><a href="mailto:demelusine@gmail.com"> demelusine@gmail.com</a></p>
+            </div>
+          </div>
+        <br>
+        <p class="copyright white">&copy; 2017 Désirée Melusine M</p>
+        </div>
+      </footer>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="vendor/owl-carousel/owl.carousel.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/vide/jquery.vide.min.js"></script>
+    <script src="vendor/mixitup/mixitup.min.js"></script>
+    <script src="vendor/wowjs/wow.min.js"></script>
+
+    <!-- Custom scripts for this theme -->
+    <script src="js/vitality.js"></script>
+    <script src="js/mixitup-config.js"></script>
+    <script src="js/lib/knockout-3.2.0.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script async type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+
+  </body>
+
+</html>
